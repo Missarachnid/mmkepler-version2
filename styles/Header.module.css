@@ -1,0 +1,52 @@
+#nav {
+  padding: 10px 40px;
+  margin: 0;
+  width: 100%;
+  background-color: #003333;
+  box-shadow: -1px 2px 5px #009799;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.hamburger {
+  width: 40px;
+  background-color: #00c3c6;
+  height: 6px;
+  margin: 3px;
+}
+
+.items {
+  visibility: visible;
+  font-size: 1.2em;
+  margin-top: 12px;
+}
+
+.item {
+  text-decoration: none;
+  min-width: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px){
+  #menu {
+    visibility: visible;
+  }
+ .items {
+  visibility: hidden;
+  }
+}
