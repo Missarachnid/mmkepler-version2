@@ -38,10 +38,13 @@
   border-radius: 10px 0;
 }
 
-#spacer {
-  
+/*Contact specific rules*/
+#contact {
+  background: url("../public/images/starBG.jpg") no-repeat center;
+  color: white;
 }
 
+/*Animations*/
 @keyframes pulse {
   0% {
     border-image: linear-gradient(45deg, 009799, #009799, white, #009799, #009799) 1;
