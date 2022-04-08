@@ -38,11 +38,15 @@
   border-radius: 10px 0;
 }
 
-/*Contact specific rules*/
-#contact {
-  background: url("../public/images/starBG.jpg") no-repeat center;
-  color: white;
+#skillsContainer {
+  display: flex;
 }
+
+.bullet {
+  display: inline-block;
+  background: red;
+}
+
 
 /*Animations*/
 @keyframes pulse {
