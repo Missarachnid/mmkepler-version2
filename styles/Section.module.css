@@ -1,6 +1,6 @@
 .section {
   background-color: white;
-  color: #003333;
+  color: black;
   min-width: 300px;
   max-width: 900px;
   padding: 40px 80px;
@@ -40,6 +40,21 @@
 
 #skillsContainer {
   display: flex;
+  flex-direction: column;
+  
+}
+
+#skillsWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  text-align: left;
+}
+
+#skillsWrapper ul {
+ min-width: 224px;
 }
 
 .bullet {

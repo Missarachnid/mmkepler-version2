@@ -1,6 +1,6 @@
 import sectionStyles from "../styles/Section.module.css";
 import Image from "next/image";
-import bullet from "../public/images/bullet.png";
+import planet from "../public/images/bullet.png";
 
 export default function Skills(){
   return (
@@ -12,44 +12,47 @@ export default function Skills(){
         id={sectionStyles.skills} 
         name="skills">
       <div id={sectionStyles.skillsContainer}>
+        <div id={sectionStyles.skillsWrapper} >
         <ul>
-          <li>JavaScript/ES6+</li>
-          <li>React/Redux</li>
-          <li>CSS/FlexBox</li>
-          <li>Bootstrap</li>
-          <li>npm</li>
-          <li>Git/GitHub</li>
-          <li>JavaScript/ES6+</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>MongoDB</li>
-          <li>JQuery</li>
-          <li>Webpack/babel</li>
-          <li>FirebaseDB/Auth</li>
-          <li>Gulp/Grunt</li>
-          <li>Heroku/AWS</li>
-          <li>Cpanel</li>
+          <li><h3>Title Here:</h3></li>
+          <li><Image src={planet} alt="a teal planet bullet" /> JavaScript/ES6+</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> React/Redux</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> CSS/FlexBox</li>
+          <li> <Image src={planet} alt="a teal planet bullet" />Bootstrap</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> npm</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Git/GitHub</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Node.js</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Express</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> MongoDB</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> JQuery</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Webpack/babel</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> FirebaseDB/Auth</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Gulp/Grunt</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Heroku/AWS</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Cpanel</li>
         </ul>
-        <ul>
-          <li><h3>Artistic</h3></li>
-          <li>Graphic Design</li>
-          <li>Photo Editing</li>
-          <li>Photoshop</li>
-          <li>Illustrator</li>
-          <li>Sketch</li>
-          <li>3D Animation/Modeling</li>
-        </ul>
+        
         <ul>
           <li><h3>Working Knowledge:</h3></li>
-          <li>Next.js</li>
-          <li>Workbox/Service Workers/PWA</li>
-          <li>Google Analytics</li>
-          <li>Apollo/GraphQL</li>
-          <li>Python/PHP</li>
-          <li>Wordpress</li>
-          <li>SEO practices</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Next.js</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Workbox/PWA</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Google Analytics</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Apollo/GraphQL</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Python/PHP</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Wordpress</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> SEO practices</li>
         </ul>
 
+        <ul>
+          <li><h3>Artistic</h3></li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Graphic Design</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Photo Editing</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Photoshop</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Illustrator</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> Sketch</li>
+          <li><Image src={planet} alt="a teal planet bullet" /> 3D Animation/Modeling</li>
+        </ul>
+        </div>
       </div>
     </div>
     </div>

@@ -5,7 +5,7 @@ import github from "../public/images/GitHub-Mark-32px.png";
 import projectData from "../components/data";
 
 export default function Projects(){
-  console.log(projectData);
+
   return (
     <div>
       <div className={sectionStyles.holder}>
