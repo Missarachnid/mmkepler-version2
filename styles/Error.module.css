@@ -1,0 +1,27 @@
+#error {
+  margin-top: 60px;
+  color: white;
+}
+
+#text {
+  font-size: 4em;
+  animation: redAlert 4s ease infinite alternate;
+}
+
+@keyframes redAlert {
+  0% {
+    text-shadow: 2px 2px 10px red, -2px -2px 10px red;
+  }
+  25% {
+    text-shadow: 8px 8px 20px red, -8px -8px 20px red;
+  }
+  50% {
+    text-shadow: 2px 2px 10px red, -2px -2px 10px red;
+  }
+  75% {
+    text-shadow: 8px 8px 20px red, -8px -8px 20px red;
+  }
+  100% {
+    text-shadow: 2px 2px 10px red, -2px -2px 10px red;
+  }
+}
