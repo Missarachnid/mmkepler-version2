@@ -9,6 +9,9 @@
   margin-top: 60px;
 }
 
+#landing {
+  width: 60vw;
+}
 .footer {
   display: flex;
   flex: 1;

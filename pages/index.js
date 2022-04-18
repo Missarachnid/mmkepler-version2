@@ -10,6 +10,7 @@ import Projects from "../components/Projects";
 import Failure from "../components/Failure";
 import Success from "../components/Success";
 import Menu from "../components/Menu";
+import Landing from "../components/Landing";
 import { useState } from "react";
 import * as emailjs from "emailjs-com";
 import planets from "../public/images/planets.png";
@@ -73,6 +74,7 @@ export default function Home() {
       <Header onClick={(e) => toggleMenu(e)} />
       {menuState ? <Menu onClick={(e) => toggleMenu(e)} /> : ""}
       <main className={styles.main}>
+        <Landing />
         <About />
         <Skills />
         <Projects />
