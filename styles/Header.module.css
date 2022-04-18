@@ -2,7 +2,7 @@
   padding: 10px 40px;
   margin: 0;
   width: 100%;
-  background-color: #003333;
+  background-color: black;
   box-shadow: -1px 2px 5px #009799;
   position: fixed;
   z-index: 100;
@@ -12,6 +12,7 @@
   border-bottom-width: 3px;
   border-image: linear-gradient(45deg, #009799, white, #009799) 1;
     animation: pulse 4s ease infinite alternate;
+    color: white;
 }
 
 #header {
@@ -21,6 +22,7 @@
   padding: 0;
   margin: 0;
 }
+
 
 .hamburger {
   width: 40px;
@@ -33,8 +35,14 @@
 
 .items {
   visibility: visible;
+  width: 70px;
   font-size: 1.2em;
-  margin-top: 12px;
+  padding-top: 14px;
+  background: url("../public/images/logo2.png") center center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 2;
+  text-shadow: 1px 1px 2px black, -1px -1px 2px black;
 }
 
 #item {
