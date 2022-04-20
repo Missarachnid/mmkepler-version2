@@ -12,6 +12,7 @@ body {
   background-color: #003333;
   text-align: center;
   color: #00C3C6;
+  box-sizing: border-box;
 }
 
 body {
