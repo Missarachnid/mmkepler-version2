@@ -14,6 +14,8 @@ import Landing from "../components/Landing";
 import { useState } from "react";
 import * as emailjs from "emailjs-com";
 import planets from "../public/images/planets.png";
+import favicon from "../public/images/planetTitle.png";
+
 
 
 export default function Home() {
@@ -68,8 +70,13 @@ export default function Home() {
     <div className={styles.container} id="home">
       <Head>
         <title>Melissa Kepler</title>
-        <meta name="description" content="The website of Melissa Kepler" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Melissa Kepler | Full Stack React Developer" />
+        <meta name="keywords" content="React Developer, Full Stack Developer, Front End Developer, React Full Stack Developer, JavaScript Developer, Melissa Kepler, mmkepler" />
+        <meta property="og:title" content="Melissa Kepler | Full Stack React Developer" />
+        <meta property="og:image" content="/images/Melissa_Kepler_Logo.png" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"></meta>
+        <meta property="og:site_name" content="Melissa Kepler" />
+        <link rel="icon" href="../images/planetTitle.png" />
       </Head>
       <Header onClick={(e) => toggleMenu(e)} />
       {menuState ? <Menu onClick={(e) => toggleMenu(e)} /> : ""}

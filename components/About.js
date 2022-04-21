@@ -6,7 +6,6 @@ import github from "../public/images/GitHub-Mark-32px.png";
 import Image from "next/image";
 import behance from "../public/images/behance.svg";
 
-
 export default function About(){
   return (
     <div>
@@ -26,12 +25,12 @@ export default function About(){
         
         <div id={aboutStyles.textWrapper}>
           <p>
-          I was the owner of Melissa Kepler Web Design & Development, but I am currently looking for a full-time Front End or Full Stack React remote position.
+          I was the owner of Melissa Kepler Web Design &amp; Development, but I am currently looking for a full-time Front End or Full Stack React remote position.
           </p>
           <p>
           I have been using every cheap or free resource I can to learn to be a JavaScript developer since 2015. I can’t remember what “Learn How To Code” website got me, but they got me. I love the idea of a career where you can grow through learning in ways that aren’t just traditional education.
           </p>
-          <p>I have finished the Front End tracks for Team Treehouse and Free Code Camp a while back. I have been working on the updated version of FreeCodeCamp's curriculum recently. In 2018 I won a Grow with Google scholarship for Udacity’s Mobile Web Specialist Nanodegree and earned my Nanodegree. A lot of my learning has been through project creation. <a href="https://github.com/Missarachnid" id={aboutStyles.gitLink}>My GitHub is full of projects, please take a look!</a></p>
+          <p>I have finished the Front End tracks for Team Treehouse and Free Code Camp a while back. I have been working on the updated version of FreeCodeCamp&apos;s curriculum recently. In 2018 I won a Grow with Google scholarship for Udacity&apos;s Mobile Web Specialist Nanodegree and earned my Nanodegree. A lot of my learning has been through project creation. <a href="https://github.com/Missarachnid" id={aboutStyles.gitLink}>My GitHub is full of projects, please take a look!</a></p>
           <p>Paragraph about Gap</p>
           <p>I love space, and that might have something to do with my last name! I also love dinosaurs and wanted to be a paleontologist as a child (my favorite is Archaeopteryx!). In my spare time I am into bodybuilding, playing with my dogs, and reading and watching anything Carl Sagan ever worked on. I am a former member of Women Who Code Atlanta and I was a co-host of Woodstock Northwest OTP meetups before I relocated to Denver.</p>
         </div>
@@ -92,7 +91,7 @@ export default function About(){
         JS Algorithms and Data Structures
       </a>
       <a className={aboutStyles.links} href="https://www.freecodecamp.org/certification/missarachnid/back-end-development-and-apis">
-        Back End Development & APIs
+        Back End Development &amp; APIs
       </a>
       </div>
       

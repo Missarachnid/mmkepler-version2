@@ -125,7 +125,7 @@ name: "Wikipedia Viewer",
 //image: "/public/images/projects/wiki.jpg",
 image: wiki,
 text: "Wikipedia API project",
-alttext: "A screenshot with instructions for using the Wikipedia viewer",
+altText: "A screenshot with instructions for using the Wikipedia viewer",
 gitLink: "https://github.com/Missarachnid/fcc-wikipedia-viewer",
 webLink: "https://missarachnid.github.io/fcc-wikipedia-viewer/"
 }, 
