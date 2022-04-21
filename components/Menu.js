@@ -6,7 +6,7 @@ export default function Menu(props){
   //console.log("props in menu", props);
   return(
     <div id={menuStyles.menu}>
-      <button id={menuStyles.close} onClick={props.onClick}>x</button>
+      <button type="button" id={menuStyles.close} onClick={props.onClick}>x</button>
       <ul>
         <li  className={menuStyles.link}>
           <Link to="home" spy={true} smooth={true} offset={-100} onClick={props.onClick}>Home</Link>

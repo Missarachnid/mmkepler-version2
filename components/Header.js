@@ -15,7 +15,7 @@ export default function Header(props){
         <li className={headerStyles.items}><Link to="projects"  spy={true} smooth={true} offset={-100}>Projects</Link></li>
         <li className={headerStyles.items}><Link to="contact"  spy={true} smooth={true} offset={-100}>Contact</Link></li>
         <li id={headerStyles.toggle}>
-          <button id={headerStyles.item} onClick={props.onClick}>
+          <button id={headerStyles.item} onClick={props.onClick} type="button" aria-expanded="false" aria-label="hamburger menu">
           <span className={headerStyles.hamburger}></span>
           <span className={headerStyles.hamburger}></span>
           <span className={headerStyles.hamburger}></span>

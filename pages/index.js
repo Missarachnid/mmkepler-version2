@@ -32,6 +32,8 @@ export default function Home() {
   //toggle hamburger menu
   const toggleMenu = (e) => {
     e.preventDefault();
+    let buttonMenu = document.getElementById("item");
+    buttonMenu.ariaExpanded = !menuState;
     setMenuState(!menuState);
   }
 
