@@ -2,7 +2,7 @@
   background-color: white;
   color: black;
   min-width: 300px;
-  max-width: 900px;
+  max-width: 732px;
   padding: 40px 80px;
   margin: 0 40px 40px 40px;
   border: 4px solid #009799;
@@ -10,6 +10,10 @@
   animation: pulse 4s ease infinite alternate;
   background: rgba(255, 255, 255, 0.5);
   box-shadow: 3px -1px 6px #009799, -3px 1px 6px #009799;
+}
+
+.title {
+  font-size: 1.6em;
 }
 
 
@@ -134,17 +138,6 @@
   box-shadow: inset 1px 1px 2px 2px rgba(0, 151, 153, 0.3), inset -1px -1px 2px 2px rgba(0, 151, 153, 0.3);
   padding:  8px;
 }
-/*
-.readmore{
-  margin: 0 auto;
-  padding: 4px;
-  width: 50%;
-  background-color: white;
-  border-radius: 10px 10px 0 0;
-  font-size: .9em;
-  border: 1px solid #009799;
-}
-*/
 
 
 /* Projects Specific CSS */
@@ -173,158 +166,14 @@
   }
 }
 
-/*
-.section {
-  background-color: white;
-  color: #003333;
-  min-width: 300px;
-  max-width: 900px;
-  padding: 40px 80px;
-  margin: 0 40px 40px 40px;
-  border: 4px solid #009799;
-  border-image: linear-gradient(45deg, #009799, white, #009799) 1;
-  animation: pulse 4s ease infinite alternate;
-  background: rgba(255, 255, 255, 0.5);
-  box-shadow: 3px -1px 6px #009799, -3px 1px 6px #009799;
-}
-
-.holder {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-
-.spanleft {
-  width: 50px;
-  height: 20px;
-  border-bottom: 8px double #009799;
-  border-radius: 0 10px;
-}
-
-.spanright {
-  width: 50px;
-  height: 20px;
-  border-bottom: 8px double #009799;
-  border-radius: 10px 0;
-}
-
-#skillsContainer {
-  display: flex;
-}
-
-.bullet {
-  display: inline-block;
-  background: red;
-}
-
-.cardSpacer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-
-  background-color: #009799;
-  width: 200px;
-  height: 230px;
-  background: rgb(0,151,153);
-  background: linear-gradient(0deg, rgba(0,151,153,1) 0%, rgba(255,255,255,1) 100%);
-  border-radius: 4px;
-  box-shadow: 1px 1px 1px 2px rgba(0, 51, 51, 0.3);
-  color: black;
-  margin: 10px 10px;
-}
-
-.projectImage {
-  display: flex;
-  border-radius: 50%;
-  z-index: 50;
-}
-.imageWrapper {
-  box-sizing: content-box;
-  margin: 20px 20px 0 20px;
-}
-
-.textWrap {
-  height: 120px;
-}
-
-.text {
-  padding: 0;
-  margin: 0 10px 10px 10px;
-}
-
-.projectsTitle {
-  margin: 0 10px;
-  padding: 0;
-}
-
-.cardMenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-
-  border-radius: 0 0 4px 4px;
-}
-
-
-.readmoreWrapper {
-  width: 100%;
-}
-
-.buttonWrapper {
-  width: 100%;
-  border: 1px solid #009799;
-  border-radius: 4px;
-  box-shadow: inset 1px 1px 2px 2px rgba(0, 151, 153, 0.3), inset -1px -1px 2px 2px rgba(0, 151, 153, 0.3);
-  padding:  8px;
-}
-/*
-.readmore{
-  margin: 0 auto;
-  padding: 4px;
-  width: 50%;
-  background-color: white;
-  border-radius: 10px 10px 0 0;
-  font-size: .9em;
-  border: 1px solid #009799;
-}
-*/
-
-
-/* Projects Specific CSS */
-
-/*.divider {
-  border-left: 1px dotted #009799;
-  border-right: 1px dotted #009799;
-}/*
-
-/*Animations*/
-/*@keyframes pulse {
-  0% {
-    border-image: linear-gradient(45deg, 009799, #009799, white, #009799, #009799) 1;
+@media only screen and (max-width: 768px){
+  .section {
+    padding: 40px;
   }
-  25% {
-    border-image: linear-gradient(45deg, #009799, white, #009799, white, #009799,) 1;
+}
+
+@media only screen and (max-width: 600px){
+  .section {
+    padding: 40px 20px;
   }
-  50% {
-    border-image: linear-gradient(45deg,  white, #009799, #009799,  #009799, white) 1;
-  }
-  75% {
-    border-image: linear-gradient(45deg,  #009799, white, #009799, white,  #009799) 1;
-  }
-  100% {
-    border-image: linear-gradient(45deg, #009799, #009799, white, #009799, #009799) 1;
-  }
-}*/
+}

@@ -22,7 +22,7 @@ export default function About(){
         <div id={aboutStyles.picWrapper}>
           <Image src={melissa} alt="photo of Melissa Kepler photoshopped to look like it came from a space ship information display" width="100px" height="100px"/>
           </div>
-          <h2>Greetings Earthlings!</h2>
+          <h3>Greetings Earthlings!</h3>
         
         <div id={aboutStyles.textWrapper}>
           <p>
@@ -36,7 +36,7 @@ export default function About(){
           <p>I earned Free Code Camp Certifications in Responsive Web Design, JavaScript Algorithms &#38; Data Structures, and Back End Development &#38; APIs.
              In 2018 I won a Grow with Google scholarship and earned Udacity&apos;s Mobile Web Specialist Nanodegree.
               A lot of my learning has been through project creation. &nbsp;
-              <a href="https://github.com/Missarachnid" id={aboutStyles.gitLink}>My GitHub is full of projects, please take a look!</a>
+              <a href="https://github.com/Missarachnid" target="_blank" rel="noreferrer" id={aboutStyles.gitLink}>My GitHub is full of projects, please take a look!</a>
           </p>
           <p><strong>The dreaded resume gap!</strong> - Just as I was going to make my career jump into programming, my finance died from injuries caused by a car accident on our way to get married.
              I had to settle his estate while dealing with my PTSD, and I took time off to do this. During this time I started my own business and did some graphic and web work. I also worked on studying as well.
@@ -51,7 +51,7 @@ export default function About(){
           <p>Although I included links, I don&apos;t spend much time on social media. Frankly I would rather just have tweets from birds.</p>
         </div>
         <div id={aboutStyles.resume}>
-          <a href="/images/Melissa_Kepler_resume.pdf">
+          <a href="/images/Melissa_Kepler_resume.pdf" target="_blank" rel="noreferrer">
           <p>Check out my resume here : &nbsp; 
             <Image src={resume} height={32} width={32}
             className={aboutStyles.logos} alt="icon of a resume"/> 
@@ -64,7 +64,7 @@ export default function About(){
       <div id={aboutStyles.profLinks} >
 
         <div className={aboutStyles.profSpacer}>
-          <a className={aboutStyles.iconLink} href="https://www.linkedin.com/in/mmkepler/"> 
+          <a className={aboutStyles.iconLink} href="https://www.linkedin.com/in/mmkepler/" target="_blank" rel="noreferrer"> 
             Work History: 
             <div className={aboutStyles.logos}>
               <Image src={linkedin} alt="The LinkedIn logo." />
@@ -73,7 +73,7 @@ export default function About(){
           </div>
         
         <div className={aboutStyles.profSpacer}>
-          <a className={aboutStyles.iconLink} href="https://github.com/Missarachnid">
+          <a className={aboutStyles.iconLink} href="https://github.com/Missarachnid" target="_blank" rel="noreferrer">
             Coding Projects: 
             <div className={aboutStyles.logos}>
               <Image src={github} alt="The GitHub Octocat logo." />
@@ -82,7 +82,7 @@ export default function About(){
         </div>
 
         <div className={aboutStyles.profSpacer}>
-          <a className={aboutStyles.iconLink} href="https://www.behance.net/mmkepler">
+          <a className={aboutStyles.iconLink} href="https://www.behance.net/mmkepler" target="_blank" rel="noreferrer">
             Artistic Work: 
             <div id={aboutStyles.behance}>
               <Image src={behance} alt="The Behance logo." height={32} width={32}/>
@@ -94,10 +94,10 @@ export default function About(){
 
       <h3>Educational Certificates</h3>
       <div id={aboutStyles.certs}>
-        <a className={aboutStyles.links} href="/images/StanfordCert.pdf">
+        <a className={aboutStyles.links} href="/images/StanfordCert.pdf" target="_blank" rel="noreferrer">
           Stanford Online Computer Science 101 Certificate
         </a>
-        <a  className={aboutStyles.links} href="/images/udacity.jpg">
+        <a  className={aboutStyles.links} href="/images/udacity.jpg" target="_blank" rel="noreferrer">
           Udacity Nanodegree in Mobile Web Specialist
         </a>
       </div>
@@ -107,13 +107,13 @@ export default function About(){
       <h3>Free Code Camp Certifications Links</h3>
       <div id={aboutStyles.fcc}>
         
-      <a className={aboutStyles.links} href="https://www.freecodecamp.org/certification/missarachnid/responsive-web-design" >
+      <a className={aboutStyles.links} href="https://www.freecodecamp.org/certification/missarachnid/responsive-web-design" target="_blank" rel="noreferrer">
         Responsive Web Design
       </a>
-      <a className={aboutStyles.links} href="https://www.freecodecamp.org/certification/missarachnid/javascript-algorithms-and-data-structures">
+      <a className={aboutStyles.links} href="https://www.freecodecamp.org/certification/missarachnid/javascript-algorithms-and-data-structures" target="_blank" rel="noreferrer">
         JS Algorithms and Data Structures
       </a>
-      <a className={aboutStyles.links} href="https://www.freecodecamp.org/certification/missarachnid/back-end-development-and-apis">
+      <a className={aboutStyles.links} href="https://www.freecodecamp.org/certification/missarachnid/back-end-development-and-apis" target="_blank" rel="noreferrer">
         Back End Development &amp; APIs
       </a>
       </div>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Home from "../pages";
 import landingLogo from "../public/images/Melissa_Kepler_Logo.png";
 import styles from "../styles/Home.module.css";
 

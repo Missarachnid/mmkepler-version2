@@ -9,7 +9,9 @@ export default function Projects(){
   return (
     <div>
       <div className={sectionStyles.holder}>
-      <span className={sectionStyles.spanleft}></span><h2 className={sectionStyles.title}>Projects</h2><span className={sectionStyles.spanright}></span>
+      <span className={sectionStyles.spanleft}></span>
+        <h2 className={sectionStyles.title}>Projects</h2><span className={sectionStyles.spanright}>
+        </span>
       </div>
       <div className={sectionStyles.section} id={sectionStyles.projects} name="projects">
       <div className={sectionStyles.cardSpacer} >

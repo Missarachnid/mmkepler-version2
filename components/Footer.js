@@ -8,8 +8,12 @@ export default function Footer(){
     <footer id={footerStyles.footer}>
       <p id={footerStyles.copy}>©2022 Melissa Kepler</p>
       <div id={footerStyles.imageWrapper}>
-        <Image className={footerStyles.image} src={twitter} alt="Twitter logo" width={32} height={32}/>
+        <a href="https://twitter.com/missarachnid" target="_blank" rel="noreferrer">
+          <Image className={footerStyles.image} src={twitter} alt="Twitter logo" width={32} height={32}/>
+        </a>
+        <a href="https://github.com/Missarachnid" target="_blank" rel="noreferrer">
         <Image classame={footerStyles.image} src={github} alt="The GitHub Octocat logo" width={32} height={32} />
+        </a>
       </div>
     </footer>
   );

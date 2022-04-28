@@ -37,7 +37,7 @@
   visibility: visible;
   width: 70px;
   font-size: 1.2em;
-  padding-top: 14px;
+  padding-top: 16px;
   background: url("../public/images/logo2.png") center center;
   background-repeat: no-repeat;
   background-size: 60%;
@@ -45,7 +45,7 @@
   text-shadow: 1px 1px 2px black, -1px -1px 2px black;
 }
 
-#item {
+.item {
   margin-top:8px;
   background: none;
   border: none;

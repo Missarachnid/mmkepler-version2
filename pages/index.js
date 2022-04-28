@@ -14,7 +14,6 @@ import Landing from "../components/Landing";
 import { useState } from "react";
 import * as emailjs from "emailjs-com";
 import planets from "../public/images/planets.png";
-import favicon from "../public/images/planetTitle.png";
 
 
 
@@ -32,7 +31,8 @@ export default function Home() {
   //toggle hamburger menu
   const toggleMenu = (e) => {
     e.preventDefault();
-    let buttonMenu = document.getElementById("item");
+    let buttonMenu = document.getElementsByClassName("item");
+    console.log("toggle", buttonMenu);
     buttonMenu.ariaExpanded = !menuState;
     setMenuState(!menuState);
   }
@@ -160,8 +160,9 @@ export default function Home() {
 
             <button
               type="submit"
-              id={styles.submit}
-            >Submit</button>
+              id={styles.submit}>
+              Submit
+            </button>
           </form>
            }
           </div>
