@@ -37,9 +37,13 @@ max-width: 100%;
 }
 
 .logos {
-  width: 32px;
   height: 32px;
-  margin: 10px;
+  margin-left: 10px;
+}
+
+#behance {
+  margin-left: 10px;
+  margin-top: 8px;
 }
 
 #fcc {
@@ -78,4 +82,9 @@ max-width: 100%;
   text-decoration: underline;
   color: #003333;
 
+}
+
+#resume p {
+ color: #003333;
+ font-size: 1.2em;
 }
