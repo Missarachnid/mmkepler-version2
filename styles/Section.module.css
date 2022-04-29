@@ -3,7 +3,7 @@
   color: black;
   min-width: 300px;
   max-width: 732px;
-  padding: 40px 80px;
+  padding: 40px 40px;
   margin: 0 40px 40px 40px;
   border: 4px solid #009799;
   border-image: linear-gradient(45deg, #009799, white, #009799) 1;
@@ -71,7 +71,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:space-evenly;
   width: 100%;
   margin-left: 0;
   margin-right: 0;
@@ -140,11 +140,22 @@
 }
 
 
+
 /* Projects Specific CSS */
 
 .divider {
   border-left: 1px dotted #009799;
   border-right: 1px dotted #009799;
+}
+
+.showMore {
+  border-radius: 4px;
+  background-color: #009799;
+  color: white;
+  margin-top: 20px;
+  border: 1px solid #003333;
+  padding: 10px;
+  text-shadow: 1px 1px 2px black, -1px -1px 2px black;
 }
 
 /*Animations*/

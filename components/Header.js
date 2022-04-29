@@ -5,7 +5,7 @@ import * as Scroll from "react-scroll";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
 
 export default function Header(props){
-  console.log("props", props);
+  //console.log("props", props);
   return (
     <nav id={headerStyles.nav}>
       <ul id={headerStyles.header}>

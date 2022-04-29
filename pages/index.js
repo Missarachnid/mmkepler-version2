@@ -27,6 +27,8 @@ export default function Home() {
   let [success, setSuccess] = useState(initialSuccess);
   let [failure, setFailure] = useState(initialFailure);
   let [showForm, setShowForm] = useState(initialShowForm);
+  let initialProject = {one: true, two: false, three: false};
+  let [showProjects, setProjects] = useState(initialProject);
 
   //toggle hamburger menu
   const toggleMenu = (e) => {
@@ -37,6 +39,26 @@ export default function Home() {
     setMenuState(!menuState);
   }
 
+  //toggle Projects
+  const toggleProjects = (e) => {
+    e.preventDefault();
+    /*
+    let button1 = document.getElementById("button1");
+    let button2 = document.getElementById("button2");
+    let section2 = document.getElementById("section2");
+    let section3 = document.getElementById("section3");
+    */
+
+    if(showProjects.one && showProjects.two){
+      setProjects({...initialProject, three: true});
+      //section3.style.visibility = "visible";
+      //button2.style.visibility = "hidden";
+    } else if(showProjects.one && showProjects.three === false) {
+      setProjects({...initialProject, two: true});
+      //button1.style.visibility = "hidden";
+      //section2.style.visibility = "visible";
+    } 
+  }
   //handle form change
   const handleChange = (e) => {
     e.preventDefault();
@@ -76,7 +98,7 @@ export default function Home() {
         <meta name="keywords" content="React Developer, Full Stack Developer, Front End Developer, React Full Stack Developer, JavaScript Developer, Melissa Kepler, mmkepler" />
         <meta property="og:title" content="Melissa Kepler | Full Stack React Developer" />
         <meta property="og:image" content="/images/Melissa_Kepler_Logo.png" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0"></meta>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta property="og:site_name" content="Melissa Kepler" />
         <link rel="icon" href="../images/planetTitle.png" />
       </Head>
@@ -86,7 +108,7 @@ export default function Home() {
         <Landing />
         <About />
         <Skills />
-        <Projects />
+        <Projects onClick={(e) => toggleProjects(e)} shown={showProjects}/>
         <div>
          <div className={sectionStyles.holder}>
         <span className={sectionStyles.spanleft}></span><h2 className={sectionStyles.title}>Contact</h2><span className={sectionStyles.spanright}></span>
