@@ -36,7 +36,7 @@ export default function About(){
               A lot of my learning has been through project creation. &nbsp;
               <a href="https://github.com/Missarachnid" target="_blank" rel="noreferrer" id={aboutStyles.gitLink}>My GitHub is full of projects, please take a look!</a>
           </p>
-          <p tabIndex="0"><strong>The dreaded resume gap!</strong> - Just as I was going to make my career jump into programming, my finance died from injuries caused by a car accident on our way to get married.
+          <p tabIndex="0"><strong>The dreaded resume gap!</strong> - Just as I was going to make my career jump into programming, my fiance died from injuries caused by a car accident on our way to get married.
              I had to settle his estate while dealing with my PTSD, and I took time off to do this. During this time I started my own business and did some graphic and web work. I also worked on studying as well.
               In early 2020 I decided to move to Denver and go back to work. Then the country shut down, and I started having a lot of health issues. I didn&apos;t think I
             had COVID, but I got a lot of symptoms of &lsquo;Long COVID&lsquo;. My body decided to go haywire. I fought it with all my energy and I am now feeling like I did before this nightmare began.
