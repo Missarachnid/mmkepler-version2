@@ -19,10 +19,6 @@
   width: 200px;
 }
 
-#copy {
-  /*font-size: 1.2em;*/
-}
-
 @keyframes pulse {
   0% {
     border-image: linear-gradient(45deg, 009799, #009799, white, #009799, #009799) 1;

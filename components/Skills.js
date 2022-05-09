@@ -4,57 +4,56 @@ import planet from "../public/images/bullet.png";
 
 export default function Skills(){
   return (
-    <div>
+    <section id={sectionStyles.skills} 
+    name="skills">
       <div className={sectionStyles.holder}>
-      <span className={sectionStyles.spanleft}></span><h2 className={sectionStyles.title}>Skills</h2><span className={sectionStyles.spanright}></span>
+      <span className={sectionStyles.spanleft}></span><h2 className={sectionStyles.title} tabIndex="0">Skills</h2><span className={sectionStyles.spanright}></span>
       </div>
-      <div className={sectionStyles.section} 
-        id={sectionStyles.skills} 
-        name="skills">
+      <div className={sectionStyles.section} >
       <div id={sectionStyles.skillsContainer}>
         <div id={sectionStyles.skillsWrapper} >
         <ul>
-          <li><h3>Title Here:</h3></li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> JavaScript/ES6+</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> React/Redux</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> CSS/FlexBox</li>
-          <li> <Image src={planet} alt="a teal planet list bullet" />Bootstrap</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> npm</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Git/GitHub</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Node.js</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Express</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> MongoDB</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> JQuery</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Webpack/babel</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> FirebaseDB/Auth</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Gulp/Grunt</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Heroku/AWS</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Cpanel</li>
+          <li tabIndex="0"><h3>Coding Skills:</h3></li>
+          <li tabIndex="0"><Image src={planet} alt="" width={10} height={9}/> JavaScript/ES6+</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> React/Redux</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> CSS/FlexBox</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} />Bootstrap</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> npm</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> Git/GitHub</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> Node.js</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> Express</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> MongoDB</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> JQuery</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> Webpack/babel</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> FirebaseDB/Auth</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> Gulp/Grunt</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> Heroku/AWS</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9} /> Cpanel</li>
         </ul>
         
         <ul>
-          <li><h3>Working Knowledge:</h3></li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Next.js</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Workbox/PWA</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Google Analytics</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Apollo/GraphQL</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Python/PHP</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Wordpress</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> SEO practices</li>
+          <li tabIndex="0"><h3>Knowledgeable:</h3></li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Next.js</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Workbox/PWA</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Google Analytics</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Apollo/GraphQL</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Python/PHP</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Wordpress</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> SEO practices</li>
         </ul>
 
         <ul>
-          <li><h3>Artistic</h3></li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Graphic Design</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Photo Editing</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Photoshop</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Illustrator</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> Sketch</li>
-          <li><Image src={planet} alt="a teal planet list bullet" /> 3D Animation/Modeling</li>
+          <li tabIndex="0"><h3>Artistic</h3></li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Graphic Design</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Photo Editing</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Photoshop</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Illustrator</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> Sketch</li>
+          <li tabIndex="0"><Image src={planet} alt=""  width={10} height={9}/> 3D Animation/Modeling</li>
         </ul>
         </div>
       </div>
     </div>
-    </div>
+    </section>
   )
 }

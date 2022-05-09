@@ -1,3 +1,5 @@
+import contactStyles from "../styles/Contact.module.css";
+
 export default function Failure() {
   return (
     <div id={contactStyles.failure}>

@@ -12,6 +12,7 @@
 #landing {
   width: 60vw;
 }
+
 .footer {
   display: flex;
   flex: 1;
@@ -53,9 +54,7 @@
 .description {
   margin: 4rem 0;
   line-height: 1.5;
-  /*font-size: 1.2em;*/
 }
-
 
 .grid {
   display: flex;
@@ -66,7 +65,7 @@
 }
 
 /*Contact specific rules*/
-#contact {
+#space {
   background: url("../public/images/starBG.jpg") no-repeat center;
   color: white;
 }
@@ -74,7 +73,6 @@
 #emailInput, #nameInput, #messageInput {
   text-align: center;
   padding: 10px;
-  /*font-size: 1.2em;*/
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -91,7 +89,6 @@
   border: none;
   color: white;
   border-radius: 4px;
-  /*font-size: 1.2em;*/
 }
 
 

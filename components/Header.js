@@ -5,15 +5,14 @@ import * as Scroll from "react-scroll";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
 
 export default function Header(props){
-  //console.log("props", props);
   return (
     <nav id={headerStyles.nav}>
       <ul id={headerStyles.header}>
-        <li className={headerStyles.item}><Link  activeClass="active" to="home" spy={true} smooth={true}><Image alt="mmkepler.com logo" src={logo} width="60x" height="50px" ></Image></Link></li>
-        <li className={headerStyles.items}><Link to="about" spy={true} smooth={true} offset={-100}>About</Link></li>
-        <li className={headerStyles.items}><Link to="skills" spy={true} smooth={true} offset={-100}>Skills</Link></li>
-        <li className={headerStyles.items}><Link to="projects"  spy={true} smooth={true} offset={-100}>Projects</Link></li>
-        <li className={headerStyles.items}><Link to="contact"  spy={true} smooth={true} offset={-100}>Contact</Link></li>
+        <li className={headerStyles.item} tabIndex="0"><Link  activeClass="active" to="home" smooth={true} offset={-80}><Image alt="" src={logo} width="60x" height="50px" ></Image></Link></li>
+        <li className={headerStyles.items} tabIndex="0"><Link to="about" smooth={true} offset={-80}>About</Link></li>
+        <li className={headerStyles.items} tabIndex="0"><Link to="skills" smooth={true} offset={-80}>Skills</Link></li>
+        <li className={headerStyles.items} tabIndex="0"><Link to="projects" smooth={true} offset={-80} isDynamic={true}>Projects</Link></li>
+        <li className={headerStyles.items} tabIndex="0"><Link to="contact" smooth={true} offset={-80}>Contact</Link></li>
         <li id={headerStyles.toggle}>
           <button className={headerStyles.item} onClick={props.onClick} type="button" aria-expanded="false" aria-label="hamburger menu">
           <span className={headerStyles.hamburger}></span>

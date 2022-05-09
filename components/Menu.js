@@ -3,7 +3,6 @@ import * as Scroll from "react-scroll";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
 
 export default function Menu(props){
-  //console.log("props in menu", props);
   return(
     <div id={menuStyles.menu}>
       <button type="button" id={menuStyles.close} onClick={props.onClick}>x</button>

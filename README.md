@@ -1,34 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+* This is the code for [mmkepler.com](https://www.mmkepler.com), my personal website.
+This is version 3.0. I rewored the site to learn next.js
 
-## Getting Started
+** Technology Used:
+#  React
+#  Next.js
+#  email.js
+#  react-scroll
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+***  Why I decided to use Next.js
+**** I was doing a huge tutorial for Next.js, but all of the sudden an important part of the project was no longer supporting MongoDB for the database! So I decided to use Next for my website redo since it is image heavy and I wanted to see how server side rendering handled it. This has been a huge headache. Nearly all of my website was removed from being part of the tab order, so I had to add that manually. Even though I used Next.js own Image tag, when doing a Lighthouse scan I was yelled at for not using them. And also yelled at for not adding specific images sizes, even when I did. While Next.js seemed great for making a web store like in the tutorial, it is not that great for a small website. Lesson learned. 

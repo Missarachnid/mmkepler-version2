@@ -1,3 +1,4 @@
+/* All sections*/
 .section {
   background-color: white;
   color: black;
@@ -8,7 +9,7 @@
   border: 4px solid #009799;
   border-image: linear-gradient(45deg, #009799, white, #009799) 1;
   animation: pulse 4s ease infinite alternate;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
   box-shadow: 3px -1px 6px #009799, -3px 1px 6px #009799;
 }
 
@@ -16,14 +17,12 @@
   font-size: 1.6em;
 }
 
-
 .holder {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 40px;
 }
-
 
 .spanleft {
   width: 50px;
@@ -43,10 +42,11 @@
   margin-left: 10px;
 }
 
+/* Skills */
+
 #skillsContainer {
   display: flex;
   flex-direction: column;
-  
 }
 
 #skillsWrapper {
@@ -54,7 +54,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
   text-align: left;
 }
 
@@ -67,21 +66,40 @@
   background: red;
 }
 
+/* Projects */
+
+
+.divider {
+  border-left: 1px dotted #009799;
+  border-right: 1px dotted #009799;
+}
+
+.projectsTitle {
+  margin: 0 10px;
+  padding: 0;
+}
+
 .cardSpacer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content:space-evenly;
-  width: 100%;
+
   margin-left: 0;
   margin-right: 0;
-  
+}
+
+.cardMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 0 0 4px 4px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-
   background-color: #009799;
   width: 200px;
   height: 230px;
@@ -103,32 +121,13 @@
   margin: 20px 20px 0 20px;
 }
 
-.textWrap {
-  flex: 1  1 auto;
-}
-
 .text {
   padding: 0;
   margin: 0 10px 10px 10px;
 }
 
-.projectsTitle {
-  margin: 0 10px;
-  padding: 0;
-}
-
-.cardMenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-
-  border-radius: 0 0 4px 4px;
-}
-
-
-.readmoreWrapper {
-  width: 100%;
+.textWrap {
+  flex: 1  1 auto;
 }
 
 .buttonWrapper {
@@ -137,26 +136,21 @@
   border-radius: 4px;
   box-shadow: inset 1px 1px 2px 2px rgba(0, 151, 153, 0.3), inset -1px -1px 2px 2px rgba(0, 151, 153, 0.3);
   padding:  8px;
-}
-
-
-
-/* Projects Specific CSS */
-
-.divider {
-  border-left: 1px dotted #009799;
-  border-right: 1px dotted #009799;
+  background-color: white;
 }
 
 .showMore {
   border-radius: 4px;
+  border: none;
   background-color: #009799;
   color: white;
   margin-top: 20px;
-  border: 1px solid #003333;
+  box-shadow: 1px 1px 1px 2px rgba(0, 51, 51, 0.3);
   padding: 10px;
   text-shadow: 1px 1px 2px black, -1px -1px 2px black;
 }
+
+
 
 /*Animations*/
 @keyframes pulse {
@@ -186,5 +180,11 @@
 @media only screen and (max-width: 600px){
   .section {
     padding: 40px 20px;
+  }
+}
+
+@media only screen and (max-width: 370px){
+  .section {
+    margin: 0 auto;
   }
 }

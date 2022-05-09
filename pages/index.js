@@ -29,6 +29,7 @@ export default function Home() {
   let [showForm, setShowForm] = useState(initialShowForm);
   let initialProject = {one: true, two: false, three: false};
   let [showProjects, setProjects] = useState(initialProject);
+  console.log("Show projects", showProjects);
 
   //toggle hamburger menu
   const toggleMenu = (e) => {
@@ -42,21 +43,13 @@ export default function Home() {
   //toggle Projects
   const toggleProjects = (e) => {
     e.preventDefault();
-    /*
-    let button1 = document.getElementById("button1");
-    let button2 = document.getElementById("button2");
-    let section2 = document.getElementById("section2");
-    let section3 = document.getElementById("section3");
-    */
 
     if(showProjects.one && showProjects.two){
-      setProjects({...initialProject, three: true});
-      //section3.style.visibility = "visible";
-      //button2.style.visibility = "hidden";
-    } else if(showProjects.one && showProjects.three === false) {
-      setProjects({...initialProject, two: true});
-      //button1.style.visibility = "hidden";
-      //section2.style.visibility = "visible";
+      
+      setProjects({...showProjects, three: true});
+    } else if(showProjects.one && showProjects.two === false) {
+     
+      setProjects({...showProjects, two: true});
     } 
   }
   //handle form change
@@ -109,17 +102,17 @@ export default function Home() {
         <About />
         <Skills />
         <Projects onClick={(e) => toggleProjects(e)} shown={showProjects}/>
-        <div>
+        <section id={styles.contact} 
+          name="contact">
          <div className={sectionStyles.holder}>
         <span className={sectionStyles.spanleft}></span><h2 className={sectionStyles.title}>Contact</h2><span className={sectionStyles.spanright}></span>
         </div>
         <div className={sectionStyles.section} 
-          id={styles.contact} 
-          name="contact">
+          id={styles.space} >
             <div id={sectionStyles.spacer}>
             { showForm.show && <p>Send a message to my planet!</p>}
             </div>
-            <Image src={planets} alt="image of a teal planet with 3 orbiting moons." />
+            <Image src={planets} alt="image of a teal planet with 3 orbiting moons."/>
           <div>
             {success.show && <Success />}
             {failure.show && <Failure />}
@@ -190,7 +183,7 @@ export default function Home() {
           </div>
         </div>
 
-        </div>
+        </section>
 
       </main>
       <Footer />
