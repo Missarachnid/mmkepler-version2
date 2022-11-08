@@ -35,7 +35,7 @@ export default function Home() {
   const toggleMenu = (e) => {
     e.preventDefault();
     let buttonMenu = document.getElementsByClassName("item");
-    console.log("toggle", buttonMenu);
+    // console.log("toggle", buttonMenu);
     buttonMenu.ariaExpanded = !menuState;
     setMenuState(!menuState);
   }
