@@ -59,12 +59,14 @@ export default function Projects(props){
             </div>
             <div className={sectionStyles.cardMenu}>
               
-              <button className={sectionStyles.buttonWrapper}>
-                <Image src={website} alt="The universal symbol for website" width={32} height={32}  className={sectionStyles.topImage}/>
-              </button>
-              <button className={sectionStyles.buttonWrapper} src={el.gitLink}>
-                <Image src={github} alt="The logo for github"/>
-              </button>
+              {el.webLink === "none" ? '' :
+            <a href={el.webLink} className={sectionStyles.buttonWrapper} aria-label="link to hosted project" target="_blank" rel="noopener noreferrer">
+                <Image src={website} alt="" width={32} height={32}  className={sectionStyles.topImage}/>
+              </a>
+        }
+              <a href={el.gitLink} className={sectionStyles.buttonWrapper} aria-label="link to github repository" target="_blank" rel="noopener noreferrer">
+                <Image src={github} alt=""/>
+              </a>
             </div>
             </div>
           )
@@ -88,12 +90,12 @@ export default function Projects(props){
             </div>
             <div className={sectionStyles.cardMenu}>
               
-              <button className={sectionStyles.buttonWrapper}>
-                <Image src={website} alt="The universal symbol for website" width={32} height={32}  className={sectionStyles.topImage}/>
-              </button>
-              <button className={sectionStyles.buttonWrapper} src={el.gitLink} width={32} height={32}>
-                <Image src={github} alt="The logo for github"/>
-              </button>
+            <a href={el.webLink} className={sectionStyles.buttonWrapper} aria-label="link to hosted project" target="_blank" rel="noopener noreferrer">
+                <Image src={website} alt="" width={32} height={32}  className={sectionStyles.topImage}/>
+              </a>
+              <a href={el.gitLink} className={sectionStyles.buttonWrapper} aria-label="link to github repository" target="_blank" rel="noopener noreferrer">
+                <Image src={github} alt=""/>
+              </a>
             </div>
             </div>
           )
