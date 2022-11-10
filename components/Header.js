@@ -1,15 +1,8 @@
 import headerStyles from "../styles/Header.module.css";
-import Image from "next/image";
-import logo from "../public/images/logo2.png";
 import * as Scroll from "react-scroll";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
-import {useState} from 'react';
 
 export default function Header(props){
- 
-  
-
-  
   return (
     <nav id={headerStyles.nav}>
       <ul id={headerStyles.header}>

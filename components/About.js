@@ -49,7 +49,7 @@ export default function About(){
           <p tabIndex="0">Although I included links, I don&apos;t spend much time on social media. Frankly I would rather just have tweets from birds.</p>
         </div>
         <div id={aboutStyles.resume}>
-          <a href="/images/Melissa_Kepler_resume.pdf" target="_blank" rel="noreferrer">
+          <a href="/melissa_Kepler_resume.pdf" target="_blank" rel="noreferrer">
           <p>Check out my resume here : &nbsp; 
             <Image src={resume} height={32} width={32}
             className={aboutStyles.logos} id={aboutStyles.resumeIcon} alt="icon of a resume"/> 
