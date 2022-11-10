@@ -29,7 +29,7 @@ export default function Home() {
   let [showForm, setShowForm] = useState(initialShowForm);
   let initialProject = {one: true, two: false, three: false};
   let [showProjects, setProjects] = useState(initialProject);
-  console.log("Show projects", showProjects);
+  // console.log("Show projects", showProjects);
 
   //toggle hamburger menu
   const toggleMenu = (e) => {

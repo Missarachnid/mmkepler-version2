@@ -11,8 +11,9 @@
   border-bottom-style: solid;
   border-bottom-width: 3px;
   border-image: linear-gradient(45deg, #009799, white, #009799) 1;
-    animation: pulse 4s ease infinite alternate;
-    color: white;
+  animation: pulse 4s ease infinite alternate;
+  color: white;
+  line-height: normal;
 }
 
 #header {
@@ -36,12 +37,16 @@
 .items {
   width: 70px;
   font-size: 1.2em;
-  padding-top: 16px;
+  padding-top: 10px;
   background: url("../public/images/logo2.png") center center;
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: 2;
   text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+#home {
+  padding-top: 0px;
 }
 
 .item {
@@ -75,19 +80,19 @@
     width: 40px;
   }
  .items {
-  display: none;
+    display: none;
   }
   #menu {
     display: inline-block;
     visibility: visible;
     margin-top:8px;
-  background: none;
-  border: none;
-  text-decoration: none;
-  min-width: 40px;
-  min-height: 40px;
-  display: flex;
-  flex-direction: column;
+    background: none;
+    border: none;
+    text-decoration: none;
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
