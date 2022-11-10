@@ -67,6 +67,7 @@
 /*Contact specific rules*/
 #space {
   background: url("../public/images/starBG.jpg") no-repeat center;
+  background-size: cover;
   color: white;
 }
 
