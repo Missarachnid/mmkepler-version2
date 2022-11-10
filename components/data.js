@@ -1,11 +1,9 @@
 import puplanta from "../public/images/projects/georgia-corgi.svg";
 import weather2 from "../public/images/projects/open-weather.png";
-import shortener from "../public/images/projects/shortener.jpg";
+import zap from "../public/images/projects/zap.jpg";
+import tetris from "../public/images/projects/tetris.jpg";
 import simon from "../public/images/projects/simon.jpg";
 import tictactoe from "../public/images/projects/tictactoe.jpg";
-import mmkepler from "../public/images/newestlogo2.png";
-
-
 
 const projectData = [
 {id: 1,
@@ -27,8 +25,8 @@ weblink: "https://warm-cliffs-12741.herokuapp.com/"
 {id: 3,
 name: "Tic Tac Toe",
 image: tictactoe,
-altText: "A game of tic tac toe, 2 moves in",
-text: "The game you remember with webgl effects",
+altText: "A game of tic tac toe",
+text: "Tic Tac Toe & webgl effects",
 gitLink: "https://github.com/Missarachnid/fcc-tictactoe",
 webLink: "https://missarachnid.github.io/fcc-tictactoe/"
 }, 
@@ -41,20 +39,20 @@ gitLink: "https://github.com/Missarachnid/fcc-simon",
 webLink: "https://missarachnid.github.io/fcc-simon/"
 },
 {id: 5,
-name: "mmkepler.com",
-image: mmkepler,
-altText: "The logo for my website: Melissa Kepler, Full Stack Developer in front of a small moon orbiting a planet",
-text: "The code for my website",
-gitLink: "https://github.com/Missarachnid/mmkepler.com",
-webLink: "https://mmkepler.com/"
-},
-{id: 6,
-name: "URL Shortener",
-image: shortener,
-altText: "A screenshot of the instructios for using the URL shortener",
-text: "Shorten Urls",
-gitLink: "https://github.com/Missarachnid/fcc-url-shortener",
-webLink: "https://momentous-trick.glitch.me/"
-}
+  name: "Zapier 'Zap'",
+  image: zap,
+  altText: "Zapier's logo in red text",
+  text: "Zapier's API sends form data to a google doc",
+  gitLink: "https://github.com/Missarachnid/Email-to-GoogleSheets-Zap",
+  webLink: "https://brave-curie-83cf49.netlify.app/"
+  },
+  {id: 6,
+  name: "Tetris",
+  image: tetris,
+  altText: "A screen shot of a tetris gameboard with a space background",
+  text: "A React version of Tetris",
+  gitLink: "https://github.com/Missarachnid/FCC-React-Tetris",
+  webLink: "https://missarachnid.github.io/FCC-React-Tetris/"
+  }
 ];
 export default projectData;

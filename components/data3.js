@@ -29,7 +29,7 @@ const projectData3 = [
     webLink: "https://missarachnid.github.io/fcc-calculator/"
     },
     {id: 16,
-    name: "Meta Data Project",
+    name: "Meta Data",
     image: metadata,
     altText: "A screenshot of instructions on how to use the meta data microservice",
     text: "Reads submitted file's size",
