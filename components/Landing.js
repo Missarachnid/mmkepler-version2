@@ -1,5 +1,5 @@
 import Image from "next/image";
-import landingLogo from "../public/images/Melissa_Kepler_Logo.png";
+import landingLogo from "../public/images/mmk_Logo.svg";
 import styles from "../styles/Home.module.css";
 
 export default function Landing(){
