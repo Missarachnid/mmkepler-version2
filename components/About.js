@@ -98,6 +98,12 @@ export default function About(){
         <a  className={aboutStyles.links} href="/images/udacity.jpg" target="_blank" rel="noreferrer">
           Udacity Nanodegree in Mobile Web Specialist
         </a>
+        <a  className={aboutStyles.links} href="/images/React-For-Beginners.png" target="_blank" rel="noreferrer">
+          Wes Bos React For Beginners Course
+        </a>
+        <a  className={aboutStyles.links} href="/images/Advanced-React.png" target="_blank" rel="noreferrer">
+          Wes Bos Advanced React & GraphQL Course
+        </a>
       </div>
 
       {/*Prof Links End */}
