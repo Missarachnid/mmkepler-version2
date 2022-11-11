@@ -92,12 +92,6 @@
 }
 
 @media only screen and (max-width: 600px){
-  #one {
-    
-  }
-  #two {
-
-  }
   #columns {
     display: block;
   }
@@ -112,7 +106,7 @@
 }
 
 .projectsTitle {
-  margin: 0 10px;
+  margin: 0 6px;
   padding: 0;
 }
 
@@ -139,7 +133,7 @@
   flex-direction: column;
   background-color: #009799;
   width: 200px;
-  min-height: 230px;
+  min-height: 250px;
   background: rgb(0,151,153);
   background: linear-gradient(0deg, rgba(0,151,153,1) 0%, rgba(255,255,255,1) 100%);
   border-radius: 4px;

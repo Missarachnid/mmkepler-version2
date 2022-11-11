@@ -1,9 +1,9 @@
 import puplanta from "../public/images/projects/georgia-corgi.svg";
 import weather2 from "../public/images/projects/open-weather.png";
 import zap from "../public/images/projects/zap.jpg";
-import tetris from "../public/images/projects/tetris.jpg";
 import simon from "../public/images/projects/simon.jpg";
 import tictactoe from "../public/images/projects/tictactoe.jpg";
+import sickFits from "../public/images/sick-fits.png";
 
 const projectData = [
 {id: 1,
@@ -47,12 +47,12 @@ webLink: "https://missarachnid.github.io/fcc-simon/"
   webLink: "https://brave-curie-83cf49.netlify.app/"
   },
   {id: 6,
-  name: "Tetris",
-  image: tetris,
-  altText: "A screen shot of a tetris gameboard with a space background",
-  text: "A React version of Tetris",
-  gitLink: "https://github.com/Missarachnid/FCC-React-Tetris",
-  webLink: "https://missarachnid.github.io/FCC-React-Tetris/"
+  name: "Sick-Fits",
+  image: sickFits,
+  altText: "The Sick-Fits Logo, white letters on a red background",
+  text: "Wes Bos' course, an ecommerce site",
+  gitLink: "https://github.com/Missarachnid/sick-fits-frontend",
+  webLink: "https://www.sick-fits.com"
   }
 ];
 export default projectData;
