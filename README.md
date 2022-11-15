@@ -1,5 +1,5 @@
 # This is the code for [mmkepler.com](https://www.mmkepler.com) 
-It is my personal website.
+It is my personal website. This code has not been deployed yet. I will update the readme when it has been.
 This is version 2.0, I reworked the site to learn next.js
 
 ## Technology Used:
