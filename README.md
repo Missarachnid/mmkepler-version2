@@ -1,5 +1,6 @@
-# This is the code for [mmkepler.com](https://www.mmkepler.com), my personal website.
-This is version 3.0. I rewored the site to learn next.js
+# This is the code for [mmkepler.com](https://www.mmkepler.com) 
+It is my personal website.
+This is version 2.0, I reworked the site to learn next.js
 
 ## Technology Used:
 *  React
